@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 29.66%;
+  margin-bottom: 32px;
+  padding: 0 50px;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.container {
+  padding: 0 32px;
+  padding: 0 50px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }</style>
+</head>
+
+<body>
+<div class="navigation-container">
+<div class="navigation-content">
+<div class="logo"><img src="images/logo.png"/></div>
+<div class="menu">
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="#">MENU</a></li>
+<li><a href="#">BEST DEALS</a></li>
+<li><a href="coming soon page/coming soon.html">ONLINE ORDER</a></li>
+</ul>
+</div>
+<div class="cart">
+<img src="images/cart.png" height="30px">
+<a href="coming soon page/coming soon.html">Cart</a>
+</div>
+</div>
+</div>
+
+<h1 style="text-align: center; margin: 70px">Our Team</h1>
+<p></p>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="about images/gaurav.jfif" alt="ashish" style="width:80%">
+      <div class="container">
+        <h2>Ashish singh</h2>
+        <p class="title">CEO & Founder</p>
+        
+        <p>singhashish@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="about images/ritik.jfif" alt="manas" style="width:80%">
+      <div class="container">
+        <h2>Manas ross</h2>
+        <p class="title">Manager</p>
+       
+        <p>rossmanas@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="about images/ashishimg.jpg" alt="John" style="width:87%">
+      <div class="container">
+        <h2>Shivang jha</h2>
+        <p class="title">Kitchen Head</p>
+       
+        <p>jhashivang@hotmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

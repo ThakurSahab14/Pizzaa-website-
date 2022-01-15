@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  html {
+    box-sizing: border-box;
+  }
+  
+  .card { 
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+  }
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+
+  
+  
+
+  
+  .title {
+    color: #91191d;
+    padding: ;
+  }
+  
+  .button {
+    border: none;
+    outline: 0; 
+    display:none;
+    padding: 0px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor:pointer;
+    width: 55%;
+    
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  .restaurant-image{
+      padding: 0px;
+    
+      border:none;
+      }
+
+
+  .background{
+    background-color:  #91191d;
+    color: white ;
+    margin:0px;
+    padding: 0px;
+  }
+  
+  /*@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }*/ 
+  /*.w3-responsive{display:block;overflow-x:auto}*/
+  /*.parallax {
+    /* The image used */
+    /*background-image: url('img_parallax.jpg');
+  
+    /* Full height */
+    /*height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+  /*@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }*/
